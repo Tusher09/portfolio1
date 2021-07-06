@@ -7,6 +7,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half{
     width: 50%;
@@ -25,10 +26,12 @@ section{
     color: white;
     font-weight: 800;
     font-family: 'Otomanopee One', sans-serif;
+    margin-top: 30px;
    
 }
 .font{
     font-family: 'Otomanopee One', sans-serif;
+    margin-right: 50px;
 }
 .top{
     background-image: url(top-banner.png);
@@ -36,4 +39,13 @@ section{
 }
 body{
     margin: 0;
+}
+#img{
+    width: 40%;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 }
