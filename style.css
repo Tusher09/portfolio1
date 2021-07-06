@@ -2,10 +2,10 @@ h1{
     font-size: 50px;
     font-family: 'Otomanopee One', sans-serif;
 }
-#color{
+.color{
     color: orangered;
 }
-section{
+.flexible{
     display: flex;
     
 }
@@ -49,4 +49,33 @@ body{
     background-position: right;
     margin-top: 150px;
 }
+.Experiences{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    box-shadow: 10px 10px 40px green;
+    margin-bottom: 130px;
+    border-radius: 15px;
+    
+
+}
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web{
+    border-image: linear-gradient(orangered tomato);
+   
+}
+#baby{
+    
+    border-image: linear-gradient(blue grey);
+}
+footer{
+    text-align: center;
 }
